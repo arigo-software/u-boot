@@ -148,7 +148,7 @@ static const struct rpi_model rpi_models_new_scheme[] = {
 	},
 	[0x10] = {
 		"Compute Module 3+",
-		DTB_DIR "rpi-cm3-io3.dtb",
+		DTB_DIR "rpi-cm3.dtb",
 		false,
 	},
 	[0x11] = {
