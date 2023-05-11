@@ -112,110 +112,110 @@ static const struct rpi_model rpi_model_unknown = {
 static const struct rpi_model rpi_models_new_scheme[] = {
 	[0x0] = {
 		"Model A",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a.dtb"),
+		FDTFILES(DTB_DIR "rpi-a.dtb"),
 		false,
 	},
 	[0x1] = {
 		"Model B",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b.dtb"),
+		FDTFILES(DTB_DIR "rpi-b.dtb"),
 		true,
 	},
 	[0x2] = {
 		"Model A+",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-a-plus.dtb"),
 		false,
 	},
 	[0x3] = {
 		"Model B+",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-plus.dtb"),
 		true,
 	},
 	[0x4] = {
 		"2 Model B",
-		FDTFILES(DTB_DIR "bcm2836-rpi-2-b.dtb"),
+		FDTFILES(DTB_DIR "rpi-2-b.dtb"),
 		true,
 	},
 	[0x6] = {
 		"Compute Module",
-		FDTFILES(DTB_DIR "bcm2835-rpi-cm.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm.dtb"),
 		false,
 	},
 	[0x8] = {
 		"3 Model B",
-		FDTFILES(DTB_DIR "bcm2837-rpi-3-b.dtb"),
+		FDTFILES(DTB_DIR "rpi-3-b.dtb"),
 		true,
 	},
 	[0x9] = {
 		"Zero",
-		FDTFILES(DTB_DIR "bcm2835-rpi-zero.dtb"),
+		FDTFILES(DTB_DIR "rpi-zero.dtb"),
 		false,
 	},
 	[0xA] = {
 		"Compute Module 3",
-		FDTFILES(DTB_DIR "bcm2837-rpi-cm3.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm3.dtb"),
 		false,
 	},
 	[0xC] = {
 		"Zero W",
-		FDTFILES(DTB_DIR "bcm2835-rpi-zero-w.dtb"),
+		FDTFILES(DTB_DIR "rpi-zero-w.dtb"),
 		false,
 	},
 	[0xD] = {
 		"3 Model B+",
-		FDTFILES(DTB_DIR "bcm2837-rpi-3-b-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-3-b-plus.dtb"),
 		true,
 	},
 	[0xE] = {
 		"3 Model A+",
-		FDTFILES(DTB_DIR "bcm2837-rpi-3-a-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-3-a-plus.dtb"),
 		false,
 	},
 	[0x10] = {
 		"Compute Module 3+",
-		FDTFILES(DTB_DIR "bcm2837-rpi-cm3.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm3.dtb"),
 		false,
 	},
 	[0x11] = {
 		"4 Model B",
-		FDTFILES(DTB_DIR "bcm2711-rpi-4-b.dtb"),
+		FDTFILES(DTB_DIR "rpi-4-b.dtb"),
 		true,
 	},
 	[0x12] = {
 		"Zero 2 W",
-		FDTFILES(DTB_DIR "bcm2837-rpi-zero-2-w.dtb"),
+		FDTFILES(DTB_DIR "rpi-zero-2-w.dtb"),
 		false,
 	},
 	[0x13] = {
 		"400",
-		FDTFILES(DTB_DIR "bcm2711-rpi-400.dtb"),
+		FDTFILES(DTB_DIR "rpi-400.dtb"),
 		true,
 	},
 	[0x14] = {
 		"Compute Module 4",
-		FDTFILES(DTB_DIR "bcm2711-rpi-cm4.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm4.dtb"),
 		true,
 	},
 	[0x17] = {
 		"5 Model B",
 		FDTFILES(
-			[0] = DTB_DIR "bcm2712-rpi-5-b.dtb",
-			[1] = DTB_DIR "bcm2712-d-rpi-5-b.dtb"
+			[0] = DTB_DIR "pi-5-b.dtb",
+			[1] = DTB_DIR "d-rpi-5-b.dtb"
 		),
 		true,
 	},
 	[0x18] = {
 		"Compute Module 5",
-		FDTFILES(DTB_DIR "bcm2712-rpi-cm5-cm5io.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm5-cm5io.dtb"),
 		true,
 	},
 	[0x19] = {
 		"500",
-		FDTFILES(DTB_DIR "bcm2712-rpi-500.dtb"),
+		FDTFILES(DTB_DIR "rpi-500.dtb"),
 		true,
 	},
 	[0x1A] = {
 		"Compute Module 5 Lite",
-		FDTFILES(DTB_DIR "bcm2712-rpi-cm5l-cm5io.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm5l-cm5io.dtb"),
 		true,
 	},
 };
@@ -223,87 +223,87 @@ static const struct rpi_model rpi_models_new_scheme[] = {
 static const struct rpi_model rpi_models_old_scheme[] = {
 	[0x2] = {
 		"Model B",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b.dtb"),
+		FDTFILES(DTB_DIR "rpi-b.dtb"),
 		true,
 	},
 	[0x3] = {
 		"Model B",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b.dtb"),
+		FDTFILES(DTB_DIR "rpi-b.dtb"),
 		true,
 	},
 	[0x4] = {
 		"Model B rev2",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-rev2.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-rev2.dtb"),
 		true,
 	},
 	[0x5] = {
 		"Model B rev2",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-rev2.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-rev2.dtb"),
 		true,
 	},
 	[0x6] = {
 		"Model B rev2",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-rev2.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-rev2.dtb"),
 		true,
 	},
 	[0x7] = {
 		"Model A",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a.dtb"),
+		FDTFILES(DTB_DIR "rpi-a.dtb"),
 		false,
 	},
 	[0x8] = {
 		"Model A",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a.dtb"),
+		FDTFILES(DTB_DIR "rpi-a.dtb"),
 		false,
 	},
 	[0x9] = {
 		"Model A",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a.dtb"),
+		FDTFILES(DTB_DIR "rpi-a.dtb"),
 		false,
 	},
 	[0xd] = {
 		"Model B rev2",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-rev2.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-rev2.dtb"),
 		true,
 	},
 	[0xe] = {
 		"Model B rev2",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-rev2.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-rev2.dtb"),
 		true,
 	},
 	[0xf] = {
 		"Model B rev2",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-rev2.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-rev2.dtb"),
 		true,
 	},
 	[0x10] = {
 		"Model B+",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-plus.dtb"),
 		true,
 	},
 	[0x11] = {
 		"Compute Module",
-		FDTFILES(DTB_DIR "bcm2835-rpi-cm.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm.dtb"),
 		false,
 	},
 	[0x12] = {
 		"Model A+",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-a-plus.dtb"),
 		false,
 	},
 	[0x13] = {
 		"Model B+",
-		FDTFILES(DTB_DIR "bcm2835-rpi-b-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-b-plus.dtb"),
 		true,
 	},
 	[0x14] = {
 		"Compute Module",
-		FDTFILES(DTB_DIR "bcm2835-rpi-cm.dtb"),
+		FDTFILES(DTB_DIR "rpi-cm.dtb"),
 		false,
 	},
 	[0x15] = {
 		"Model A+",
-		FDTFILES(DTB_DIR "bcm2835-rpi-a-plus.dtb"),
+		FDTFILES(DTB_DIR "rpi-a-plus.dtb"),
 		false,
 	},
 };
